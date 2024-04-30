@@ -8,3 +8,5 @@ Link to original GitHub - [https://github.com/Rudrabha/Wav2Lip](https://github.c
 
 Link to Project Report - [insert link here]
 
+# How to Execute Using Google Colab
+## Step 1 - Allow access to Google Drive for files and installs Git while cloning a modified repository from GitHub.
