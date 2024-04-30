@@ -10,5 +10,6 @@ Link to Project Report - [insert link here]
 
 Link to Google Colab with Instructions how the GitHub Repo Code was Converted into the Google Colab Notebook - [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv)
 
-# Easy Steps to Execute 
-1. Use the [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv) link to run the inference code that will generate a lip-synced video 
+## Easy Steps to Execute
+
+1. Use the [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv) link to run the inference code that will generate a lip-synced video
