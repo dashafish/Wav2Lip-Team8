@@ -6,7 +6,7 @@ Wav2Lip is a project that utilizes deep learning techniques to synthesize realis
 
 Link to original GitHub - [https://github.com/Rudrabha/Wav2Lip](https://github.com/Rudrabha/Wav2Lip)
 
-Link to Project Report - [insert link here]
+Link to Project Report - [Paper](https://docs.google.com/document/d/1clDbCi-J-YRzxe7q65Yy83252pzqMmuQIzw7OW0Vz5o/edit?usp=sharing)
 
 Link to Google Colab with Instructions how the GitHub Repo Code was Converted into the Google Colab Notebook - [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv)
 
