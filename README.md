@@ -12,3 +12,9 @@ Link to Google Colab with Instructions how the GitHub Repo Code was Converted in
 
 # Easy Steps to Execute 
 1. Use the [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv) link to run the inference code that will generate a lip-synced video 
+# How to Install Manually
+1. **Clone the Repository**: Clone the Wav2Lip repository from GitHub:
+   
+   git clone https://github.com/Rudrabha/Wav2Lip.git
+2. **Navigate to the repository and install the dependencies**
+   
