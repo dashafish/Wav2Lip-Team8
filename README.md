@@ -52,3 +52,43 @@ Make sure the following are installed and can be accessed via your terminal:
 1. `pip install streamlit`
 2. Navigate to the `Wav2Lip` folder/directory
 3. Run `streamlit run app.py`
+
+## How to Install Manually
+Make sure the following are installed and can be accessed via your terminal:
+
+- Python 3.6 or later
+- Pip
+- Git
+- Windows & Linux: Cuda For GPU acceleration
+
+1. **Clone the Repository**:
+   Clone the Wav2Lip repository from GitHub:
+   
+   `git clone https://github.com/Rudrabha/Wav2Lip.git`
+3. **Navigate to the repository and install the dependencies**:
+
+   `cd Wav2Lip`
+
+   `pip install -r requirements.txt`
+
+5. **Download Pretrained Models**:
+
+ Place them in the `Wav2Lip/checkpoints/` directory.
+
+7. **Test**:
+
+ Use the following command to test if everything works correctly: `python inference.py --checkpoint_path checkpoints/Wav2Lip.pth --face ../sample_data/input_vid.mp4 --audio ../sample_data/input_audio.wav`.
+
+- Make sure to provide a video file (`input_vid.mp4`) containing the target person's face where lip-syncing will be applied.
+- Also provide an audio file (`input_audio.wav`) containing the speech or audio that you want the target person's lips to sync with.
+- Ensure that `checkpoints/Wav2Lip.pth` points to the location of your downloaded pretrained model.
+
+8. **View output**:
+
+ Once everything is completed, you should be able to see your output as ***result_voice.mp4*** in the current directory after running the inference command.
+
+## Execute App
+
+1. `pip install streamlit`
+2. Navigate to the `Wav2Lip` folder/directory
+3. Run `streamlit run app.py`
