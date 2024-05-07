@@ -10,10 +10,10 @@ Link to Project Report - [Paper](https://docs.google.com/document/d/1clDbCi-J-YR
 
 Link to Google Colab with Instructions how the GitHub Repo Code was Converted into the Google Colab Notebook - [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv)
 
-# Easy Steps to Execute 
+## Easy Steps to Execute Google Colab
 1. Use the [Google Colab](https://colab.research.google.com/drive/1yky8Yw8TeEBtm6UBH_LNu0iF4EuVszcN#scrollTo=a-lmNnL1zscv) link to run the inference code that will generate a lip-synced video
-   
-# How to Install Manually
+
+## How to Install Manually
 Make sure the following are installed and can be accessed via your terminal:
 
 - Python 3.6 or later
@@ -46,4 +46,8 @@ Make sure the following are installed and can be accessed via your terminal:
 
  Once everything is completed, you should be able to see your output as ***result_voice.mp4*** in the current directory after running the inference command.
 
+## Execute App
 
+1. `pip install streamlit`
+2. Navigate to the Wav2Lip folder/directory
+3. Run `streamlit run app.py`
