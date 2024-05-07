@@ -24,13 +24,14 @@ Make sure the following are installed and can be accessed via your terminal:
 1. **Clone the Repository**:
    Clone the Wav2Lip repository from GitHub:
    
-   git clone https://github.com/Rudrabha/Wav2Lip.git
+   `git clone https://github.com/Rudrabha/Wav2Lip.git`
 3. **Navigate to the repository and install the dependencies**:
 
-   cd Wav2Lip
-   pip install -r requirements.txt
+   `cd Wav2Lip`
 
-4. **Download Pretrained Models**:
+   `pip install -r requirements.txt`
+
+5. **Download Pretrained Models**:
 
  Place them in the Wav2Lip/checkpoints/ directory.
 
