@@ -33,15 +33,15 @@ Make sure the following are installed and can be accessed via your terminal:
 
 5. **Download Pretrained Models**:
 
- Place them in the Wav2Lip/checkpoints/ directory.
+ Place them in the `Wav2Lip/checkpoints/` directory.
 
 7. **Test**:
 
- Use the following command to test if everything works correctly python inference.py --checkpoint_path checkpoints/Wav2Lip.pth --face ../sample_data/input_vid.mp4 --audio ../sample_data/input_audio.wav.
+ Use the following command to test if everything works correctly: `python inference.py --checkpoint_path checkpoints/Wav2Lip.pth --face ../sample_data/input_vid.mp4 --audio ../sample_data/input_audio.wav`.
 
-- Make sure to provide a video file (input_vid.mp4) containing the target person's face where lip-syncing will be applied.
-- Also provide an audio file (input_audio.wav) containing the speech or audio that you want the target person's lips to sync with.
-- Ensure that checkpoints/Wav2Lip.pth points to the location of your downloaded pretrained model.
+- Make sure to provide a video file (`input_vid.mp4`) containing the target person's face where lip-syncing will be applied.
+- Also provide an audio file (`input_audio.wav`) containing the speech or audio that you want the target person's lips to sync with.
+- Ensure that `checkpoints/Wav2Lip.pth` points to the location of your downloaded pretrained model.
 
 8. **View output**:
 
@@ -50,5 +50,5 @@ Make sure the following are installed and can be accessed via your terminal:
 ## Execute App
 
 1. `pip install streamlit`
-2. Navigate to the Wav2Lip folder/directory
+2. Navigate to the `Wav2Lip` folder/directory
 3. Run `streamlit run app.py`
